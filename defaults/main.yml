@@ -1,0 +1,9 @@
+---
+# defaults file for NodeExporter
+    arch: "amd64"
+    monitoring_tools_folder: "/opt/monitoring_tools"
+    prometheus_user: "prometheus"
+    prometheus_folder: "/opt/prometheus"
+    prometheus_service_name: "prometheus"
+    prometheus_storage_tsdb_path: "/opt/prometheus/data"
+    prometheus_storage_tsdb_retention: "360d"
