@@ -43,3 +43,4 @@
     src: "{{ prometheus_alert_path }}"
     dest: "{{ prometheus_folder }}"
   when: (prometheus_alert_path is defined) and (prometheus_alert_path|length > 0)
+  notify: Restart Prometheus
